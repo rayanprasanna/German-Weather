@@ -1,0 +1,152 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Wetter App</string>
+
+    <string name="action_search">Suche</string>
+    <string name="action_close">X​</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über uns​</string>
+
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="later">Später</string>
+    <string name="bo">bo</string>
+
+    <string name="wind">Windgeschwindigkeit</string>
+    <string name="pressure">Druck</string>
+    <string name="humidity">Luftfeuchtigkeit</string>
+    <string name="sunrise">Sonnenaufgang</string>
+    <string name="sunset">Sonnenuntergang</string>
+
+    <string name="last_update">Finale aktualisieren:\n%s</string>
+    <string name="last_update_widget">\nFinale aktualisieren: %s</string>
+
+    <string name="search_title">Finde eine Stadt​</string>
+
+    <string name="downloading_data" tools:ignore="TypographyEllipsis">Daten herunterladen ...</string>
+    <string name="getting_location" tools:ignore="TypographyEllipsis">Vorbereiten Ihres Standorts ...</string>
+
+    <string name="error_dateFormat">Das Format des Tages ist falsch</string>
+
+    <string name="setting_dateFormat">Das Format des Tages</string>
+    <string name="setting_dateFormatCustom">Stellen Sie das Datumsformat ein​</string>
+    <string name="setting_dateFormatCustom_summary">Verwenden Sie ein einfach zu verwendendes Datum</string>
+    <string name="setting_lengthUnits">Längeneinheiten</string>
+    <string name="setting_speedUnits">Geschwindigkeitseinheiten</string>
+    <string name="setting_tempUnits">Temperatureinheiten</string>
+    <string name="setting_showTempAsInteger">Temperatur nur als Ganzzahl anzeigen</string>
+    <string name="setting_pressureUnits">Druckeinheiten</string>
+    <string name="setting_theme">Thema</string>
+    <string name="setting_auto_detect_location">Identifizieren Sie den Ort</string>
+    <string name="setting_differentiateDaysByTint">Identifizieren Sie den Ort</string>
+    <string name="setting_refreshInterval">Hintergrund aktualisieren</string>
+    <string name="setting_unit_mps">Meter pro Sekunde​ (m/s)</string>
+    <string name="setting_unit_kph">Kilometer pro Stunde (km/h)</string>
+    <string name="setting_unit_mph">Meilen pro Stunde (mph)</string>
+    <string name="setting_unit_bft">Beaufort (bft)</string>
+    <string name="setting_unit_kn">Knoten (kn)</string>
+    <string name="setting_wind_direction_format">Windrichtungsformat</string>
+    <string name="settings_none">Nein</string>
+    <string name="setting_apiKey">API-Schlüssel</string>
+    <string name="setting_apiKey_summary">Benutzerdefinierter API-Schlüssel für OpenWeatherMap-Abfragen</string>
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeter (mm)</string>
+    <string name="setting_unit_in">Zoll (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="wind_direction_format_none">Es gibt keine Hinweise</string>
+    <string name="wind_direction_format_arrows">Pfeile</string>
+    <string name="wind_direction_format_abbreviations">Abkürzungen</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <string name="setting_theme_fresh">Frisch</string>
+    <string name="setting_theme_classic">Klassisch</string>
+    <string name="setting_theme_dark">Frisch Dunkel</string>
+    <string name="setting_theme_classic_dark">Klassisch Dunkel</string>
+    <string name="setting_theme_black">Frisch Schwarz</string>
+    <string name="setting_theme_classic_black">Klassisch Schwarz</string>
+    <string name="setting_theme_crandom_dark">Klassisch Zufällig Dunkel</string>
+    <string name="setting_theme_crandom_black">Klassisch Zufällig Schwarz</string>
+    <string name="setting_theme_frandom_dark">Frisch Zufällig Dunkel</string>
+    <string name="setting_theme_frandom_black">Frisch Zufällig Schwarz</string>
+
+    <string name="dialog_ok">okay</string>
+    <string name="dialog_cancel">Stornieren</string>
+
+    <string name="msg_err_parsing_json">JSON Konfigurationsfehler.</string>
+    <string name="msg_connection_problem">Es liegt ein Problem mit Ihrer Internetverbindung vor.</string>
+    <string name="msg_connection_not_available">Es besteht keine Verbindung.</string>
+    <string name="msg_city_not_found">Es wurde keine bestimmte Stadt gefunden.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Zu viele Anfragen. Bitte versuche es erneut.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nDruck: %5$s %6$s\nFeuchtigkeit: %7$s %%\n</string>
+    <string name="settings_title_units">Einheit</string>
+    <string name="settings_title_display">Aussicht</string>
+    <string name="settings_title_data">Daten</string>
+    <string name="cel">°C</string>
+    <string name="setting_displayDecimalZeroes">Dezimalstellen anzeigen</string>
+    <string name="settings_title_location">Platz</string>
+    <string name="setting_update_location_automatically">Aktualisieren Standorte im Hintergrund</string>
+
+    <string name="location_settings">Ortseinstellungen</string>
+    <string name="location_settings_message">Standort ist nicht aktiviert. Möchten Sie zum Einstellungsmenü gehen?</string>
+    <string name="data_settings_message">Bitte aktivieren Sie die Internetverbindung</string>
+    <string name="location_settings_button">die Einstellungen</string>
+    <string name="action_weather_map">Wetter Karte</string>
+    <string name="rain">Es regnet</string>
+    <string name="temperature">Temperatur</string>
+    <string name="action_graphs">Diagramme</string>
+    <string name="ow">Ja</string>
+    <string name="natha">Nein</string>
+    <string name="varshawa_athi_weema">Niede*rschlag</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

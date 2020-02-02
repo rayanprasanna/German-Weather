@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_title_units">
+        <ListPreference
+            android:defaultValue="@string/cel"
+            android:entries="@array/temperatureUnits"
+            android:entryValues="@array/temperatureUnitsValues"
+            android:key="unit"
+            android:title="@string/setting_tempUnits" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_title_display">
+
+        <ListPreference
+            android:defaultValue="@string/setting_theme_fresh"
+            android:entries="@array/themes"
+            android:entryValues="@array/themesValues"
+            android:key="theme"
+            android:title="@string/setting_theme" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_title_data">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/refreshIntervals"
+            android:entryValues="@array/refreshIntervalsValues"
+            android:key="refreshInterval"
+            android:title="@string/setting_refreshInterval" />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_title_location">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="updateLocationAutomatically"
+            android:title="@string/setting_update_location_automatically" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
